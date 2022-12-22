@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>KDD</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	</head>
+
+	<style>
+
+		body {
+
+			background-color: #4E070B!important;
+
+		}
+		@font-face {
+			font-family: helvetica;
+			src: url(helvetica-neue-condensed-bold.ttf);
+		}
+		.slides{
+			font-size:35rem;
+			font-family: helvetica;
+		}
+		#first{
+
+			font-size:15rem;
+
+		}
+
+
+	</style>
+	<body>
+
+		<div class="reveal">
+			<div class="slides" id="slides">
+				<section id="first">聖誕快樂</section>
+				<section>2</section>
+				<section>0</section>
+				<section>2022</section>
+				<section>K</section>
+				<section>D</section>
+				<section>KDD</section>
+
+				<section id="first" data-background-color="#ffffff" style="color:#4E070B">聖誕快樂</section>
+				<section data-background-color="#ffffff" style="color:#4E070B">2</section>
+				<section data-background-color="#ffffff" style="color:#4E070B">0</section>
+				<section data-background-color="#ffffff" style="color:#4E070B">2022</section>
+				<section data-background-color="#ffffff" style="color:#4E070B">K</section>
+				<section data-background-color="#ffffff" style="color:#4E070B">D</section>
+				<section data-background-color="#ffffff" style="color:#4E070B">KDD</section>
+
+			</div>
+		</div>
+
+		<!-- Helvetica Neue Condensed Bold -->
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			var slideElement = document.getElementById("slides");
+
+			/*
+			
+			for(var i=1; i<=100; i+=1){
+				var tag = document.createElement("section");
+				var text = document.createTextNode(i);
+				tag.appendChild(text);
+				slideElement.appendChild(tag);
+			}
+
+			*/
+			
+			Reveal.initialize({
+				hash: true,
+				touch: true,
+				controls: true,
+				progress: false,
+				controlsLayout: 'edges',
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
